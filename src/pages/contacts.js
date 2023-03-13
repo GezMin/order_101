@@ -1,14 +1,10 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 
-const test = process.env.PASSWORD
-console.log(test)
-
-export default function Home() {
+export default function Contacts() {
     return (
         <>
             <Head>
-                <title>Home</title>
+                <title>Contact Us</title>
                 <meta name='description' content='Cummings-Breitenberg LLC' />
                 <meta
                     name='viewport'
@@ -16,7 +12,7 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <h1>home</h1>
+            <h1>Contact</h1>
         </>
     )
 }
